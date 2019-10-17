@@ -1,6 +1,6 @@
 #!/usr/bin/bash
-#SBATCH -o slurm.cent_test.%j.out # Standard output and error log
-#SBATCH -e slurm.cent_test.%j.err # Standard output and error log
+#SBATCH -o slurm.cent_contatenated.%j.out # Standard output and error log
+#SBATCH -e slurm.cent_concatenated.%j.err # Standard output and error log
 #SBATCH -t 5-00:00:00
 #SBATCH --mem=80GB
 #SBATCH -p x86
@@ -33,13 +33,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11489.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11489.centclass
 
@@ -79,13 +75,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11490.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11490.centclass
 
@@ -125,13 +117,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11491.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11491.centclass
 
@@ -171,13 +159,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11492.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11492.centclass
 
@@ -217,13 +201,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11493.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11493.centclass
 
@@ -263,13 +243,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11494.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11494.centclass
 
@@ -309,13 +285,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11495.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11495.centclass
 
@@ -355,13 +327,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11496.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11496.centclass
 
@@ -401,13 +369,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11497.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11497.centclass
 
@@ -447,13 +411,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11498.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11498.centclass
 
@@ -493,13 +453,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11499.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11499.centclass
 
@@ -539,13 +495,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11500.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11500.centclass
 
@@ -585,13 +537,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11501.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11501.centclass
 
@@ -631,13 +579,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11502.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11502.centclass
 
@@ -677,13 +621,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11503.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11503.centclass
 
@@ -723,13 +663,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11504.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11504.centclass
 
@@ -769,13 +705,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11505.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11505.centclass
 
@@ -815,13 +747,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11506.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11506.centclass
 
@@ -861,13 +789,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11507.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11507.centclass
 
@@ -907,13 +831,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11508.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11508.centclass
 
@@ -953,13 +873,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11509.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11509.centclass
 
@@ -999,13 +915,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11510.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11510.centclass
 
@@ -1045,13 +957,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11511.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11511.centclass
 
@@ -1091,13 +999,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11512.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11512.centclass
 
@@ -1137,13 +1041,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11513.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11513.centclass
 
@@ -1183,13 +1083,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11514.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11514.centclass
 
@@ -1229,13 +1125,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11515.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11515.centclass
 
@@ -1275,13 +1167,9 @@ CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index"  
 cd /gpfs0/work/joshua.theisen/centrifuge_indices/p_h_v_index                    # so I'm using this line to run centrifuge from the folder with the index
 
 centrifuge \
-	# specifies index
 	-x p+h+v \
-	# comma separated list of the read 1 files
 	-1 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R1.fastq \
-	# comma separated list of the read 2 files
 	-2 /gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_identification/test_fastq/L004_R2.fastq \
-	# output files
 	--report-file /gpfs0/work/joshua.theisen/projects/species_identification/HIC11516.centrep \
 	-S /gpfs0/work/joshua.theisen/projects/species_identification/HIC11516.centclass
 
