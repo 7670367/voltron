@@ -681,5 +681,5 @@ cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centr
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/species_calls/HIC11514.centrep -S /gpfs0/work/joshua.theisen/projects/species_calls/HIC11514.centclass
 cd /gpfs0/work/joshua.theisen/projects/species_calls/
 column -ts $'\t' HIC11489.centrep | head -1 > HIC11489_top.txt && sort -rt $'\t' -nk5 HIC11489.centrep | column -ts $'\t' | head -10 | cat >> HIC11489_top.txt
- 
+
 echo centrifuge_concatenated.sh started
