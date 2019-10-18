@@ -24,9 +24,9 @@ less /mnt/HIC4000/MiSeq/HIC11489/fastq/HIC11489*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11489/fastq/HIC11489*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11489.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11489.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -50,9 +50,9 @@ less /mnt/HIC4000/MiSeq/HIC11490/fastq/HIC11490*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11490/fastq/HIC11490*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11490.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11490.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -76,9 +76,9 @@ less /mnt/HIC4000/MiSeq/HIC11491/fastq/HIC11491*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11491/fastq/HIC11491*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11491.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11491.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -102,9 +102,9 @@ less /mnt/HIC4000/MiSeq/HIC11492/fastq/HIC11492*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11492/fastq/HIC11492*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11492.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11492.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -128,9 +128,9 @@ less /mnt/HIC4000/MiSeq/HIC11493/fastq/HIC11493*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11493/fastq/HIC11493*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11493.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11493.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -154,9 +154,9 @@ less /mnt/HIC4000/MiSeq/HIC11494/fastq/HIC11494*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11494/fastq/HIC11494*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11494.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11494.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -180,9 +180,9 @@ less /mnt/HIC4000/MiSeq/HIC11495/fastq/HIC11495*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11495/fastq/HIC11495*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11495.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11495.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -206,9 +206,9 @@ less /mnt/HIC4000/MiSeq/HIC11496/fastq/HIC11496*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11496/fastq/HIC11496*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11496.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11496.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -232,9 +232,9 @@ less /mnt/HIC4000/MiSeq/HIC11497/fastq/HIC11497*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11497/fastq/HIC11497*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11497.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11497.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -258,9 +258,9 @@ less /mnt/HIC4000/MiSeq/HIC11498/fastq/HIC11498*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11498/fastq/HIC11498*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11498.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11498.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -284,9 +284,9 @@ less /mnt/HIC4000/MiSeq/HIC11499/fastq/HIC11499*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11499/fastq/HIC11499*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11499.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11499.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -310,9 +310,9 @@ less /mnt/HIC4000/MiSeq/HIC11500/fastq/HIC11500*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11500/fastq/HIC11500*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11500.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11500.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -336,9 +336,9 @@ less /mnt/HIC4000/MiSeq/HIC11501/fastq/HIC11501*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11501/fastq/HIC11501*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11501.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11501.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -362,9 +362,9 @@ less /mnt/HIC4000/MiSeq/HIC11502/fastq/HIC11502*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11502/fastq/HIC11502*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11502.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11502.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -388,9 +388,9 @@ less /mnt/HIC4000/MiSeq/HIC11503/fastq/HIC11503*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11503/fastq/HIC11503*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11503.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11503.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -414,9 +414,9 @@ less /mnt/HIC4000/MiSeq/HIC11504/fastq/HIC11504*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11504/fastq/HIC11504*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11504.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11504.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -440,9 +440,9 @@ less /mnt/HIC4000/MiSeq/HIC11505/fastq/HIC11505*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11505/fastq/HIC11505*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11505.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11505.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -466,9 +466,9 @@ less /mnt/HIC4000/MiSeq/HIC11506/fastq/HIC11506*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11506/fastq/HIC11506*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11506.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11506.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -492,9 +492,9 @@ less /mnt/HIC4000/MiSeq/HIC11507/fastq/HIC11507*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11507/fastq/HIC11507*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11507.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11507.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -518,9 +518,9 @@ less /mnt/HIC4000/MiSeq/HIC11508/fastq/HIC11508*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11508/fastq/HIC11508*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11508.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11508.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -544,9 +544,9 @@ less /mnt/HIC4000/MiSeq/HIC11509/fastq/HIC11509*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11509/fastq/HIC11509*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11509.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11509.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -570,9 +570,9 @@ less /mnt/HIC4000/MiSeq/HIC11510/fastq/HIC11510*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11510/fastq/HIC11510*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11510.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11510.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -596,9 +596,9 @@ less /mnt/HIC4000/MiSeq/HIC11511/fastq/HIC11511*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11511/fastq/HIC11511*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11511.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11511.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -622,9 +622,9 @@ less /mnt/HIC4000/MiSeq/HIC11512/fastq/HIC11512*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11512/fastq/HIC11512*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11512.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11512.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -648,9 +648,9 @@ less /mnt/HIC4000/MiSeq/HIC11513/fastq/HIC11513*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11513/fastq/HIC11513*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11513.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11513.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
@@ -674,9 +674,9 @@ less /mnt/HIC4000/MiSeq/HIC11514/fastq/HIC11514*L004*R1*.fastq.gz > /gpfs0/work/
 less /mnt/HIC4000/MiSeq/HIC11514/fastq/HIC11514*L004*R2*.fastq.gz > /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq
 
 # this line should set the index, but doesn't seem to work, 
-CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index"
+CENTRIFUGE_INDEXES="/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices"
 # so I'm using this line to run centrifuge from the folder with the index
-cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices/p_h_v_index
+cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/centrifuge_indices
 
 centrifuge -x p+h+v -1 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R1.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R1.fastq -2 /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L001_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L002_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L003_R2.fastq,/gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/test_fastq/L004_R2.fastq --report-file /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11514.centrep -S /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/HIC11514.centclass
 cd /gpfs0/work/joshua.theisen/projects/antibiotic_resistance/species_calls/
