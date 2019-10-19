@@ -1,0 +1,312 @@
+HIC11490.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  130237    92111           0.376159
+synthetic construct                                       32630    species     26537524    4940      4389            0.00277492
+Serratia marcescens                                       615      species     5135686     83        22              0.0887262
+Pseudomonas aeruginosa                                    287      species     6506218     60        34              0.16571
+Serratia sp. FS14                                         1327989  species     5249875     52        15              0
+Serratia marcescens WW4                                   435998   leaf        5244703     51        11              0.0219487
+Serratia marcescens subsp. marcescens Db11                273526   leaf        5113802     37        23              0.0372055
+[Enterobacter] aerogenes                                  548      species     5435727     33        7               0.0441509
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     30        21              0.0866672
+Serratia sp. SCBI                                         488142   species     5101896     26        9               2.32164e-13
+HIC11490.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  130237    92111           0.376159
+synthetic construct                                       32630    species     26537524    4940      4389            0.00277492
+Serratia marcescens                                       615      species     5135686     83        22              0.0887262
+Pseudomonas aeruginosa                                    287      species     6506218     60        34              0.16571
+Serratia sp. FS14                                         1327989  species     5249875     52        15              0
+Serratia marcescens WW4                                   435998   leaf        5244703     51        11              0.0219487
+Serratia marcescens subsp. marcescens Db11                273526   leaf        5113802     37        23              0.0372055
+[Enterobacter] aerogenes                                  548      species     5435727     33        7               0.0441509
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     30        21              0.0866672
+Serratia sp. SCBI                                         488142   species     5101896     26        9               2.32164e-13
+HIC11491.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Chromobacterium violaceum ATCC 12472                      243365   leaf        4751080     71603     71181           0.999933
+synthetic construct                                       32630    species     26537524    885       806             0.0
+Homo sapiens                                              9606     species     3238442024  769       570             5.86425e-07
+Chromobacterium vaccinii                                  1108595  species     5041230     337       82              2.73794e-19
+Pseudogulbenkiania sp. NH8B                               748280   species     4332995     22        1               0.0
+[Enterobacter] aerogenes                                  548      species     5435727     6         1               2.91145e-05
+Collimonas pratensis                                      279113   species     11315924    6         0               0.0
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     5         2               0
+Chromobacterium                                           535      genus       4751080     4         0               0.0
+Bradyrhizobium sp. BTAi1                                  288000   species     8493513     4         4               3.72657e-05
+HIC11492.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  231912    165299          1
+synthetic construct                                       32630    species     26537524    1033      766             4.0035e-12
+Serratia marcescens                                       615      species     5135686     2         1               0.0
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     2         2               0.0
+Shigella flexneri 5 str. 8401                             373384   leaf        4574284     1         0               0.0
+Shigella flexneri 1a                                      374923   leaf        4853344     1         0               0.0
+Shigella boydii CDC 3083-94                               344609   leaf        4874659     1         0               0.0
+Serratia sp. YD25                                         1759437  species     5117644     1         0               0.0
+Serratia sp. FS14                                         1327989  species     5249875     1         0               0.0
+Serratia marcescens WW4                                   435998   leaf        5244703     1         0               0.0
+HIC11493.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  245330    179729          0.580294
+synthetic construct                                       32630    species     26537524    7134      5522            0.0238976
+Escherichia coli                                          562      species     7253110     112       42              0.249129
+Shigella sp. PAMC 28760                                   1813821  species     4558287     48        0               1.20085e-12
+Shigella sonnei                                           624      species     5137894     28        0               9.78941e-20
+Shigella flexneri                                         623      species     4787214     14        0               0
+Bradyrhizobium sp. BTAi1                                  288000   species     8493513     14        14              0.0531865
+Shigella dysenteriae Sd197                                300267   leaf        4560911     13        1               5.04152e-12
+Shigella boydii                                           621      species     4760589     13        0               2.25733e-12
+Serratia marcescens                                       615      species     5135686     7         2               0.0
+HIC11494.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  42180     34882           0.00545501
+Proteus mirabilis                                         584      species     3973324     26277     2302            0.609347
+Proteus mirabilis HI4320                                  529507   leaf        4099895     13294     2321            0.256857
+Proteus vulgaris                                          585      species     3794983     12258     11              0
+Proteus mirabilis BB2000                                  1266738  leaf        3846754     9174      1380            0.101811
+synthetic construct                                       32630    species     26537524    4551      3233            3.59817e-05
+Escherichia coli                                          562      species     7253110     620       229             0.0239174
+Klebsiella pneumoniae subsp. pneumoniae                   72407    subspecies  76960750    273       21              1.11481e-19
+Shigella sp. PAMC 28760                                   1813821  species     4558287     211       0               0
+Shigella sonnei                                           624      species     5137894     98        0               7.53391e-13
+HIC11495.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  134230    97491           0.39346
+synthetic construct                                       32630    species     26537524    10285     8782            0.0030798
+Pseudomonas aeruginosa                                    287      species     6506218     42        27              0.131358
+Escherichia coli                                          562      species     7253110     25        12              0.117832
+Enterococcus faecalis                                     1351     species     2996992     25        11              0.232455
+Serratia marcescens                                       615      species     5135686     17        5               0.0138678
+Serratia sp. FS14                                         1327989  species     5249875     12        5               0.0
+Shigella sp. PAMC 28760                                   1813821  species     4558287     10        0               2.09962e-13
+Enterococcus faecalis D32                                 1206105  leaf        3062505     10        2               0
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     8         6               0.0404635
+HIC11496.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  543373    392435          0.876142
+synthetic construct                                       32630    species     26537524    12897     1295            0.00511859
+Pseudomonas aeruginosa                                    287      species     6506218     24        13              0.0296991
+Serratia marcescens                                       615      species     5135686     22        8               0.0125416
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     12        8               0.024396
+[Enterobacter] aerogenes                                  548      species     5435727     11        2               3.36312e-11
+Serratia sp. FS14                                         1327989  species     5249875     8         2               8.45171e-15
+Enterobacter cloacae subsp. cloacae ATCC 13047            716541   leaf        5598796     8         5               0.0115042
+Serratia marcescens WW4                                   435998   leaf        5244703     7         2               7.85981e-15
+Human endogenous retrovirus K113                          166122   leaf        9472        7         0               0.0
+HIC11497.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Rhizobium leguminosarum                                   384      species     7129833     31101     12946           0.209
+Rhizobium leguminosarum bv. viciae 3841                   216596   leaf        7751309     30423     14596           0.269117
+Rhizobium leguminosarum bv. trifolii WSM1325              395491   leaf        7418122     29240     16330           0.254992
+Rhizobium leguminosarum bv. trifolii WSM1689              754523   leaf        6903379     20449     8087            0.0804873
+synthetic construct                                       32630    species     26537524    16159     13094           0.0
+Rhizobium phaseoli                                        396      species     87841097    7928      740             1.33076e-26
+Homo sapiens                                              9606     species     3238442024  7661      6220            0.000378651
+Rhizobium sp. N324                                        1703969  species     6972593     5608      2157            0.0194045
+Rhizobium leguminosarum bv. trifolii WSM2304              395492   leaf        6872702     5376      2341            1.04535e-11
+Rhizobium leguminosarum bv. trifolii CB782                1033991  leaf        6703653     4947      2483            0.0141139
+HIC11498.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Chromobacterium violaceum ATCC 12472                      243365   leaf        4751080     94996     94302           0.999914
+synthetic construct                                       32630    species     26537524    3763      3174            0.0
+Homo sapiens                                              9606     species     3238442024  2222      1557            2.88304e-07
+Chromobacterium vaccinii                                  1108595  species     5041230     400       92              1.2836e-15
+Pseudogulbenkiania sp. NH8B                               748280   species     4332995     33        4               4.75712e-15
+Bradyrhizobium sp. BTAi1                                  288000   species     8493513     5         5               4.12221e-05
+Serratia marcescens WW4                                   435998   leaf        5244703     3         1               0.0
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     3         3               4.42042e-05
+Serratia marcescens                                       615      species     5135686     2         0               0.0
+Rhodocyclaceae                                            75787    family      4209496     2         0               0.0
+HIC11499.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Pseudomonas antarctica                                    219572   species     6607040     61106     55172           0.825067
+Pseudomonas fluorescens                                   294      species     6526868     24852     7104            0.136005
+Pseudomonas sp. TKP                                       1415630  species     7012672     4521      667             0.00471072
+Pseudomonas azotoformans                                  47878    species     6859618     4292      1320            0.00232952
+Pseudomonas trivialis                                     200450   species     6452803     4284      1677            0.0150081
+Pseudomonas fluorescens SBW25                             216595   leaf        6722539     3314      1436            0.00768373
+Pseudomonas fluorescens PICF7                             1334632  leaf        6136735     2994      669             5.62051e-16
+Pseudomonas fluorescens A506                              1037911  leaf        6019547     2338      182             0.00257294
+Pseudomonas poae RE*1-1-14                                1282356  leaf        5512241     2319      975             0.00298155
+Pseudomonas chlororaphis                                  587753   species     6702062     1643      479             0.0
+HIC11500.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Geobacillus sp. LC300                                     1519377  species     3532580     29720     11599           0.550016
+synthetic construct                                       32630    species     26537524    28130     118             0.0
+Geobacillus sp. 12AMOR1                                   1629723  species     3442724     23396     6584            0.297415
+Homo sapiens                                              9606     species     3238442024  8891      8118            5.93106e-06
+Geobacillus thermoleovorans                               33941    species     3596620     8724      808             0.049796
+Geobacillus sp. GHH01                                     1233873  species     3583134     5474      1121            0.0304593
+Geobacillus kaustophilus HTA426                           235909   leaf        3592666     5029      502             0.0133659
+Geobacillus thermoleovorans CCB_US3_UF5                   1111068  leaf        3596620     4307      546             0.0210377
+Geobacillus                                               129337   genus       3618448     3576      3158            0.0
+Geobacillus sp. JS12                                      1813182  species     3721489     3284      851             0.0133432
+HIC11501.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Chromobacterium violaceum ATCC 12472                      243365   leaf        4751080     155988    154740          0.999916
+Homo sapiens                                              9606     species     3238442024  3342      2483            1.64158e-07
+synthetic construct                                       32630    species     26537524    2232      1534            0.0
+Chromobacterium vaccinii                                  1108595  species     5041230     720       179             1.7357e-21
+Pseudogulbenkiania sp. NH8B                               748280   species     4332995     56        6               1.34414e-27
+Escherichia coli                                          562      species     7253110     23        9               8.37657e-05
+Shigella sp. PAMC 28760                                   1813821  species     4558287     7         0               1.57303e-15
+Laribacter hongkongensis HLHK9                            557598   leaf        3169329     6         1               0.0
+Janthinobacterium sp. B9-8                                1236179  species     4726850     6         0               0.0
+Shigella sonnei                                           624      species     5137894     5         0               1.21335e-11
+HIC11502.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+synthetic construct                                       32630    species     26537524    16300     13006           0.0
+Homo sapiens                                              9606     species     3238442024  13966     12961           9.22583e-05
+Geobacillus sp. LC300                                     1519377  species     3532580     2109      780             0.507345
+Geobacillus sp. 12AMOR1                                   1629723  species     3442724     1691      484             0.312762
+Geobacillus thermoleovorans                               33941    species     3596620     555       56              0.0379858
+Geobacillus sp. GHH01                                     1233873  species     3583134     427       81              0.0362889
+Geobacillus kaustophilus HTA426                           235909   leaf        3592666     326       38              0.0135587
+Geobacillus thermoleovorans CCB_US3_UF5                   1111068  leaf        3596620     290       27              0.0204838
+Geobacillus                                               129337   genus       3618448     246       225             0.0
+Geobacillus sp. JS12                                      1813182  species     3721489     231       57              0.00695266
+HIC11503.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Escherichia coli                                          562      species     7253110     143666    57629           0.998047
+Shigella sp. PAMC 28760                                   1813821  species     4558287     56753     0               5.03709e-12
+Shigella sonnei                                           624      species     5137894     27816     27              0
+Shigella boydii                                           621      species     4760589     21903     11              0.00020842
+Shigella flexneri                                         623      species     4787214     18793     47              6.14146e-30
+Shigella dysenteriae Sd197                                300267   leaf        4560911     10459     50              7.64078e-05
+Shigella boydii CDC 3083-94                               344609   leaf        4874659     9582      49              0
+Shigella boydii Sb227                                     300268   leaf        4646520     9468      22              0
+Shigella                                                  620      genus       4815334     4232      0               0.0
+Shigella sonnei 53G                                       216599   leaf        5220473     3826      7               0
+HIC11504.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Pseudomonas aeruginosa                                    287      species     6506218     172369    99213           0.999491
+Pseudomonas aeruginosa AES-1R                             1000561  leaf        6343337     2039      662             0.000107721
+Pseudomonas aeruginosa PA1R                               1279008  leaf        6309305     1584      160             2.1677e-05
+Homo sapiens                                              9606     species     3238442024  1265      523             4.21484e-08
+Pseudomonas aeruginosa PAO1                               208964   leaf        6264404     1156      92              2.18096e-05
+Pseudomonas aeruginosa RP73                               1340851  leaf        6342034     1095      76              1.01538e-23
+Pseudomonas aeruginosa DHS01                              1411700  leaf        7055752     713       21              3.08472e-21
+Pseudomonas aeruginosa SCV20265                           1427342  leaf        6725183     581       17              2.03524e-05
+Pseudomonas aeruginosa VRFPA04                            1400868  leaf        6818030     572       105             5.30801e-05
+Pseudomonas aeruginosa NCGM2.S1                           1089456  leaf        6764661     504       59              2.02022e-05
+HIC11505.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Pseudomonas antarctica                                    219572   species     6607040     62908     56909           0.81701
+Pseudomonas fluorescens                                   294      species     6526868     25923     7372            0.146836
+Pseudomonas sp. TKP                                       1415630  species     7012672     4683      696             0.00738089
+Pseudomonas trivialis                                     200450   species     6452803     4440      1735            0.00688112
+Pseudomonas azotoformans                                  47878    species     6859618     4364      1365            0.00622043
+Pseudomonas fluorescens SBW25                             216595   leaf        6722539     3517      1510            0.00406498
+Pseudomonas fluorescens PICF7                             1334632  leaf        6136735     3065      750             0.00254085
+Pseudomonas fluorescens A506                              1037911  leaf        6019547     2385      191             6.20854e-15
+Pseudomonas poae RE*1-1-14                                1282356  leaf        5512241     2274      958             0.005585
+Pseudomonas chlororaphis                                  587753   species     6702062     1665      478             0.0
+HIC11506.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Escherichia coli                                          562      species     7253110     186100    74267           0.993789
+Shigella sp. PAMC 28760                                   1813821  species     4558287     72254     0               1.37262e-16
+Shigella sonnei                                           624      species     5137894     35975     17              0
+Shigella boydii                                           621      species     4760589     28294     16              0.000264577
+Shigella flexneri                                         623      species     4787214     24280     77              4.21872e-05
+Shigella dysenteriae Sd197                                300267   leaf        4560911     13382     77              3.52916e-05
+Shigella boydii CDC 3083-94                               344609   leaf        4874659     12374     59              0
+Shigella boydii Sb227                                     300268   leaf        4646520     12194     25              0
+Shigella                                                  620      genus       4815334     5583      0               0.0
+Shigella sonnei 53G                                       216599   leaf        5220473     4763      7               0
+HIC11507.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Chromobacterium violaceum ATCC 12472                      243365   leaf        4751080     1085508   1078877         0.999951
+synthetic construct                                       32630    species     26537524    20275     66              0.0
+Homo sapiens                                              9606     species     3238442024  11015     7110            4.63158e-07
+Chromobacterium vaccinii                                  1108595  species     5041230     4818      1165            1.46846e-05
+Pseudogulbenkiania sp. NH8B                               748280   species     4332995     328       20              5.10875e-38
+Jeongeupia sp. USM3                                       1906741  species     3788814     49        0               1.29882e-47
+Laribacter hongkongensis HLHK9                            557598   leaf        3169329     48        10              1.65651e-51
+Chromobacterium violaceum                                 536      species     4751080     36        0               0.0
+Serratia marcescens                                       615      species     5135686     35        10              8.31621e-13
+Janthinobacterium sp. B9-8                                1236179  species     4726850     32        0               4.54354e-53
+HIC11508.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  241931    165068          0.321656
+Escherichia coli                                          562      species     7253110     1397      403             0.508065
+synthetic construct                                       32630    species     26537524    1029      828             1.38775e-16
+Escherichia coli 042                                      216592   leaf        5355323     101       41              0.0729427
+Shigella sp. PAMC 28760                                   1813821  species     4558287     95        0               9.22957e-14
+Shigella sonnei                                           624      species     5137894     86        1               0.00132147
+Escherichia coli PCN033                                   1001989  leaf        5156873     85        24              0.0213271
+Shigella flexneri                                         623      species     4787214     82        1               0
+Shigella boydii                                           621      species     4760589     68        0               0
+Shigella dysenteriae Sd197                                300267   leaf        4560911     61        1               0
+HIC11509.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Chromobacterium violaceum ATCC 12472                      243365   leaf        4751080     133813    133073          0.99998
+Homo sapiens                                              9606     species     3238442024  699       447             5.52606e-08
+Chromobacterium vaccinii                                  1108595  species     5041230     635       141             1.22345e-24
+synthetic construct                                       32630    species     26537524    534       510             0.0
+Pseudogulbenkiania sp. NH8B                               748280   species     4332995     49        3               4.705e-21
+Jeongeupia sp. USM3                                       1906741  species     3788814     5         0               0.0
+Gammaproteobacteria                                       1236     class       5425953     4         0               0.0
+Pseudomonas citronellolis                                 53408    species     14631203    3         0               0.0
+Janthinobacterium sp. B9-8                                1236179  species     4726850     3         0               0.0
+Escherichia coli K-12                                     83333    leaf        65191842    3         2               0.0
+HIC11510.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Chromobacterium violaceum ATCC 12472                      243365   leaf        4751080     102569    101780          1
+synthetic construct                                       32630    species     26537524    1899      39              0.0
+Homo sapiens                                              9606     species     3238442024  800       370             0.0
+Chromobacterium vaccinii                                  1108595  species     5041230     449       74              3.00072e-15
+Pseudogulbenkiania sp. NH8B                               748280   species     4332995     39        1               1.08385e-14
+Janthinobacterium sp. B9-8                                1236179  species     4726850     5         0               0.0
+Gammaproteobacteria                                       1236     class       5425953     4         0               0.0
+Candidatus Accumulibacter phosphatis clade IIA str. UW-1  522306   leaf        5306133     4         0               0.0
+Burkholderiales bacterium YL45                            1834205  species     2923068     4         0               0.0
+Lysobacter antibioticus                                   84531    species     11681564    3         0               0.0
+HIC11511.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Rhizobium leguminosarum                                   384      species     7129833     26821     11212           0.0813371
+Rhizobium leguminosarum bv. viciae 3841                   216596   leaf        7751309     26400     12762           0.0741022
+Rhizobium leguminosarum bv. trifolii WSM1325              395491   leaf        7418122     25776     14462           0.0397341
+Rhizobium leguminosarum bv. trifolii WSM1689              754523   leaf        6903379     17734     6990            0.0321278
+synthetic construct                                       32630    species     26537524    13113     147             0.0
+Rhizobium phaseoli                                        396      species     87841097    6752      620             6.46852e-19
+Homo sapiens                                              9606     species     3238442024  5461      5086            6.4753e-05
+Rhizobium sp. N324                                        1703969  species     6972593     4940      1896            0.00755715
+Rhizobium leguminosarum bv. trifolii WSM2304              395492   leaf        6872702     4706      2068            1.32689e-12
+Rhizobium leguminosarum bv. trifolii CB782                1033991  leaf        6703653     4403      2127            0
+HIC11512.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Pseudomonas aeruginosa                                    287      species     6506218     183671    106560          0.999271
+Pseudomonas aeruginosa AES-1R                             1000561  leaf        6343337     1929      580             5.62024e-05
+Pseudomonas aeruginosa PA1R                               1279008  leaf        6309305     1584      151             1.88514e-05
+Pseudomonas aeruginosa PAO1                               208964   leaf        6264404     1095      88              1.89651e-05
+Pseudomonas aeruginosa RP73                               1340851  leaf        6342034     1059      73              0
+Homo sapiens                                              9606     species     3238442024  795       425             7.3306e-08
+Pseudomonas aeruginosa DHS01                              1411700  leaf        7055752     765       18              5.06201e-05
+Pseudomonas aeruginosa SCV20265                           1427342  leaf        6725183     595       24              0.000139222
+Pseudomonas aeruginosa VRFPA04                            1400868  leaf        6818030     533       100             8.99282e-05
+Pseudomonas aeruginosa NCGM2.S1                           1089456  leaf        6764661     509       55              1.7565e-05
+HIC11513.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  1126228   712122          0.411244
+synthetic construct                                       32630    species     26537524    16660     12996           0.0103924
+Pseudomonas aeruginosa                                    287      species     6506218     204       112             0.1265
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     167       128             0.157249
+Serratia marcescens                                       615      species     5135686     143       31              0.00903746
+Streptococcus pyogenes                                    1314     species     1940887     105       22              0.0
+[Enterobacter] aerogenes                                  548      species     5435727     105       32              0.039034
+Streptococcus agalactiae                                  1311     species     2078995     84        27              0.0217083
+Anaerococcus prevotii DSM 20548                           525919   leaf        1998633     79        44              0.0068633
+Finegoldia magna ATCC 29328                               334413   leaf        1986740     73        57              0.0304251
+HIC11514.centrep
+name                                                      taxID    taxRank     genomeSize  numReads  numUniqueReads  abundance
+Homo sapiens                                              9606     species     3238442024  1126228   712122          0.411244
+synthetic construct                                       32630    species     26537524    16660     12996           0.0103924
+Pseudomonas aeruginosa                                    287      species     6506218     204       112             0.1265
+Enterobacter aerogenes KCTC 2190                          1028307  leaf        5280350     167       128             0.157249
+Serratia marcescens                                       615      species     5135686     143       31              0.00903746
+Streptococcus pyogenes                                    1314     species     1940887     105       22              0.0
+[Enterobacter] aerogenes                                  548      species     5435727     105       32              0.039034
+Streptococcus agalactiae                                  1311     species     2078995     84        27              0.0217083
+Anaerococcus prevotii DSM 20548                           525919   leaf        1998633     79        44              0.0068633
+Finegoldia magna ATCC 29328                               334413   leaf        1986740     73        57              0.0304251
